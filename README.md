@@ -1,13 +1,4 @@
 ls# MOEMDA MOEMDA: A Multi-View Graph Mixture of Experts for Predicting miRNA-Disease Associations
-
-Requirements
-python==3.7
-dgl==0.6.1
-networkx==2.5
-numpy==1.16.6
-scikit-learn==0.20.3
-pytorch==1.5.0
-tqdm==4.15.0
 File
 data
 The data files needed to run the model, which contain HMDDv2.0 and HMDDv3.2.
@@ -20,11 +11,4 @@ miRNA number.txt: MiRNA id and name
 result
 MOEMDA cross validation results.
 
-code
-eval_moe.py: The startup code of the program
-train_moe.py: Train the model
-MOEMDA.py: Structure of the model
-utils.py: Methods of data processing
-Usage
-download code and data
-execute python eval_moe.py****
+
